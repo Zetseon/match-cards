@@ -30,10 +30,4 @@ export const Card = ({ updateCards, index, cardValue, isFlipped }) => {
 	);
 };
 
-{/* <div
-			className="w-36 h-48 border rounded-md hover:cursor-pointer flex items-center justify-center overflow-hidden relative"
-			onClick={handleClick}
-		>
-			
-			{isFlipped ? <Image src={cardValue.src} layout="fill" objectFit="scale-down" key={index} /> : "Front"}
-		</div> */}
+
